@@ -1,0 +1,4 @@
+<div class="clearfix pagination-block">
+	<span ng-repeat="n in paginationData" class="pag-page" ng-class="{'active': n.active,'blocked':n.blocked}" 
+	ng-bind="{{n.number}}" ng-click="setPage(n)"></span>
+</div>
